@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit 42227ff02af339cc85dc50570d5efbcbdf7287cf
+commit 82040bd9bf36820d925a494fa62200c227bbab14
+Merge: fa2532d 8815732
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Jun 20 20:29:42 2018 +0200
 Size: counted 314 of 314 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
