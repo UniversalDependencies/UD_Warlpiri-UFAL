@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>55</sentences><tokens>306</tokens><words>314</words><fused>8</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>55</sentences><tokens>306</tokens><words>314</words><fused>8</fused></test>
   </size>
   <lemmas unique="62" /><!-- ., ka, ngarrka, kurdu, karli, ngaju, karnta, maliki, nguna, nyuntu, wajilipi, jarnti, miyi, nya, purla -->
   <forms unique="105" /><!-- ., ka, ngarrkangku, karli, maliki, kurdungku, kurduku, ngaju, jarntirni, nyangu, wajilipinyi, miyi, ngajulurlu, Ngarrka, kaju -->
