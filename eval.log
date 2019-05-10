@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit 82040bd9bf36820d925a494fa62200c227bbab14
-Merge: fa2532d 8815732
+commit fdb2157079b2a2c4d6a56afa370f06056d3c427f
+Merge: 8dc46c9 487a44a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 314 of 314 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
