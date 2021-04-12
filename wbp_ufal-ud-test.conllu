@@ -571,7 +571,7 @@
 # gloss = man-ERG PRES-3(DAT)-3(DAT) child-DAT food(ABS) woman-DAT give-NONPAST
 # text_en = The man is giving food to the child for the woman. || The man is giving food to the woman for the child.
 1	Ngarrkangku	ngarrka	NOUN	_	Case=Erg|Number=Sing	6	nsubj	_	Gloss=man|MSeg=ngarrka-ngku|MGloss=man-ERG
-2	karlajinta	ka	AUX	_	Person[dat]=3|Person[sdat]=3|Tense=Pres	6	aux	_	Gloss=PRES-3(DAT)-3(DAT)
+2	karlajinta	ka	AUX	_	Number=Sing|Number[dat]=Sing|Number[obj]=Sing|Person=3|Person[dat]=3|Person[obj]=3|Tense=Pres	6	aux	_	Gloss=PRES-3(DAT)-3(DAT)
 3	kurduku	kurdu	NOUN	_	Case=Dat|Number=Sing	6	iobj	_	Gloss=to/for-child|MSeg=kurdu-ku|MGloss=child-DAT
 4	miyi	miyi	NOUN	_	Case=Abs|Number=Sing	6	obj	_	Gloss=food|MGloss=food(ABS)
 5	karntaku	karnta	NOUN	_	Case=Dat|Number=Sing	6	iobj	_	Gloss=for/to-woman|MSeg=karnta-ku|MGloss=woman-DAT
