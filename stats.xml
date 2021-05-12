@@ -5,21 +5,21 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>55</sentences><tokens>306</tokens><words>314</words><fused>8</fused></total>
+    <total><sentences>55</sentences><tokens>306</tokens><words>315</words><fused>9</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>55</sentences><tokens>306</tokens><words>314</words><fused>8</fused></test>
+    <test><sentences>55</sentences><tokens>306</tokens><words>315</words><fused>9</fused></test>
   </size>
-  <lemmas unique="62" /><!-- ., ka, ngarrka, kurdu, karli, ngaju, karnta, maliki, nguna, nyuntu, wajilipi, jarnti, miyi, nya, purla -->
+  <lemmas unique="61" /><!-- ., ka, ngarrka, kurdu, karli, ngaju, karnta, maliki, nguna, nyuntu, wajilipi, jarnti, miyi, nya, purla -->
   <forms unique="105" /><!-- ., ka, ngarrkangku, karli, maliki, kurdungku, kurduku, ngaju, jarntirni, nyangu, wajilipinyi, miyi, ngajulurlu, Ngarrka, kaju -->
-  <fusions unique="3" /><!-- Ngarrkangkuka, Karlirna, Ngarrkarna -->
+  <fusions unique="4" /><!-- Ngarrkangkuka, Karlirna, Ngajulurlurna, Ngarrkarna -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="8">
     <tag name="ADJ">8</tag><!-- wita, murrumurru, mata -->
     <tag name="ADP">1</tag><!-- kulkurru -->
-    <tag name="AUX">47</tag><!-- ka -->
+    <tag name="AUX">50</tag><!-- ka -->
     <tag name="NOUN">107</tag><!-- ngarrka, kurdu, karli, karnta, maliki, miyi, wawirri, pirli, karru, nantuwu -->
-    <tag name="PRON">25</tag><!-- ngaju, nyuntu, ngajulu, rna, yali -->
+    <tag name="PRON">23</tag><!-- ngaju, nyuntu, ngajulu, yali -->
     <tag name="PROPN">1</tag><!-- Japanangka -->
     <tag name="PUNCT">56</tag><!-- ., , -->
     <tag name="VERB">69</tag><!-- nguna, wajilipi, jarnti, nya, purla, yi, nyangu, nga, panti, parnka -->
@@ -39,23 +39,23 @@
     <feat name="Case" value="Ins" upos="NOUN">1</feat><!-- kurlartarlu -->
     <feat name="Case" value="Loc" upos="NOUN">6</feat><!-- kardingka, karrungka, ngulyangka, parrjarla, wajirrkinyirla, yuwarlijarrarla -->
     <feat name="Case" value="Per" upos="NOUN">1</feat><!-- yurutuwana -->
-    <feat name="Clitic" value="Yes" upos="PRON">2</feat><!-- rna -->
+    <feat name="Clitic" value="Yes" upos="AUX">3</feat><!-- rna -->
     <feat name="Mood" value="Ind" upos="VERB">10</feat><!-- jarntirni, nyangu -->
     <feat name="Number" value="Dual" upos="ADP,NOUN">4</feat><!-- wawirrijarra, kulkurrujarra, yuwarlijarrarla -->
     <feat name="Number" value="Pauc" upos="NOUN">2</feat><!-- karlipatu -->
     <feat name="Number" value="Plur" upos="AUX,NOUN">5</feat><!-- Ngarrkapatu, kalu, kalujana -->
-    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">74</feat><!-- kurdungku, ngaju, maliki, ngajulurlu, Ngarrkangku, karnangku, karna, kurdu, kurduku, miyi -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">76</feat><!-- kurdungku, ngaju, maliki, ngajulurlu, Ngarrkangku, karnangku, karna, kurdu, kurduku, miyi -->
+    <feat name="Number[dat]" value="Sing" upos="AUX">1</feat><!-- karlajinta -->
     <feat name="Number[obj]" value="Dual" upos="AUX">2</feat><!-- karnapalangu -->
     <feat name="Number[obj]" value="Plur" upos="AUX">1</feat><!-- kalujana -->
-    <feat name="Number[obj]" value="Sing" upos="AUX">10</feat><!-- kaju, karnangku, kanpaju -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">26</feat><!-- ngaju, karnangku, karna, ngajulurlu, karnapalangu, rna, Ngajulurlurna, Yungurnarla, kapirna, kapirnarla -->
+    <feat name="Number[obj]" value="Sing" upos="AUX">11</feat><!-- kaju, karnangku, kanpaju, karlajinta -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">27</feat><!-- ngaju, karnangku, karna, ngajulurlu, rna, karnapalangu, Ngajulurlurna, Yungurnarla, kapirna, kapirnarla -->
     <feat name="Person" value="2" upos="AUX,PRON">13</feat><!-- nyuntuku, Ngajulurlu, kanpaju, nyuntu, nyuntulurlu, kanpa, nyuntukurra -->
-    <feat name="Person" value="3" upos="AUX">3</feat><!-- kalu, kalujana -->
+    <feat name="Person" value="3" upos="AUX">4</feat><!-- kalu, kalujana, karlajinta -->
     <feat name="Person[dat]" value="3" upos="AUX,VERB">6</feat><!-- karla, Yungurnarla, kapirnarla, karlajinta -->
     <feat name="Person[obj]" value="1" upos="AUX">6</feat><!-- kaju, kanpaju -->
     <feat name="Person[obj]" value="2" upos="AUX">4</feat><!-- karnangku -->
-    <feat name="Person[obj]" value="3" upos="AUX">3</feat><!-- karnapalangu, kalujana -->
-    <feat name="Person[sdat]" value="3" upos="AUX">1</feat><!-- karlajinta -->
+    <feat name="Person[obj]" value="3" upos="AUX">4</feat><!-- karnapalangu, kalujana, karlajinta -->
     <feat name="PronType" value="Dem" upos="PRON">1</feat><!-- yaliki -->
     <feat name="PronType" value="Prs" upos="PRON">22</feat><!-- ngaju, ngajulurlu, nyuntuku, nyuntu, nyuntulurlu, Ngajulurlurna, ngajuku, nyuntukurra -->
     <feat name="Tense" value="Fut" upos="AUX">2</feat><!-- kapirna, kapirnarla -->
@@ -70,11 +70,11 @@
     <dep name="advcl">10</dep>
     <dep name="advmod">2</dep>
     <dep name="amod">5</dep>
-    <dep name="aux">47</dep>
+    <dep name="aux">50</dep>
     <dep name="case">1</dep>
     <dep name="iobj">8</dep>
     <dep name="nmod:poss">2</dep>
-    <dep name="nsubj">58</dep>
+    <dep name="nsubj">56</dep>
     <dep name="obj">50</dep>
     <dep name="obl">14</dep>
     <dep name="obl:tmod">1</dep>
