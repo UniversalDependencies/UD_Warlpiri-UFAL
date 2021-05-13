@@ -1,12 +1,12 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit 46e53a5586d09d8f7040c2384e09aba033b1d283
+commit 3f59e86b41749965a101c36fd932b2e9798f1f04
+Merge: 235e102 e440041
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:49:26 2020 +0200
-Size: counted 314 of 314 words (nodes).
+Size: counted 315 of 315 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
@@ -15,12 +15,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 8 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 255 out of 314 total words have one or more features.
+Features: 256 out of 315 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 14 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 49 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 314 words.
+Udapi:
+               TOTAL         47
+Udapi: found 47 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 315 words.
 Genres: found 1 out of 17 known.
 validate.py --lang wbp --max-err=10 UD_Warlpiri-UFAL/wbp_ufal-ud-test.conllu
 *** PASSED ***
