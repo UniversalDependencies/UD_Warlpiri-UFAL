@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit 3f59e86b41749965a101c36fd932b2e9798f1f04
-Merge: 235e102 e440041
+commit 315ca28e68f669e87784e68beaa384b09347cdc3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 13 10:03:28 2021 +0200
 Size: counted 315 of 315 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
