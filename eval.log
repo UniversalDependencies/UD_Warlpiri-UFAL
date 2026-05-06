@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit e79a425ee0fda4bcb6f9983bb3f7a3ddc368bb2b
-Merge: c73f660 4951713
+commit f9d56e806c4f65dcf143e9239ed93ca650c3f8ac
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 21:01:35 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'wbp_ufal'
 Language code (from CoNLL-U file name) = 'wbp'
@@ -25,9 +25,9 @@ Universal relations: 14 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang wbp --max-err=10 UD_Warlpiri-UFAL/wbp_ufal-ud-test.conllu
-[Line 502 Sent 3.92a]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('ngajuku', 'karlipatu') under the predicate 'yinyi'.
-[Line 512 Sent 3.92b]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('karlipatu', 'kurduku') under the predicate 'puntami'.
-Syntax errors: 2
+[Line 502 Sent 3.92a]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('ngajuku', 'karlipatu') under the predicate 'yinyi'.
+[Line 512 Sent 3.92b]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('karlipatu', 'kurduku') under the predicate 'puntami'.
+SYNTAX errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
 Validity: 0.01
