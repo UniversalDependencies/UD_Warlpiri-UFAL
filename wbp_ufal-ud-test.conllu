@@ -496,7 +496,7 @@
 # gloss = you-ERG me-DAT PRES-2SG(SUBJ)-1SG(OBJ) boomerang(ABS)-PAUCAL give-NONPAST
 # text_en = You are giving me a few boomerangs.
 1	Nyuntulurlu	nyuntu	PRON	_	Case=Erg|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=you|MSeg=nyuntulu-rlu|MGloss=you-ERG
-2	ngajuku	ngaju	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=me|MSeg=ngaju-ku|MGloss=me-DAT
+2	ngajuku	ngaju	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=me|MSeg=ngaju-ku|MGloss=me-DAT
 3	kanpaju	ka	AUX	_	Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Pres	5	aux	_	Gloss=PRES|MSeg=ka-npa-ju|MGloss=PRES-2SG(SUBJ)-1SG(OBJ)
 4	karlipatu	karli	NOUN	_	Case=Abs|Number=Pauc	5	obj	_	Gloss=a-few-boomerangs|MSeg=karli-patu|MGloss=boomerang(ABS)-PAUCAL
 5	yinyi	yi	VERB	_	Tense=Pres	0	root	_	Gloss=give|MSeg=yi-nyi|MGloss=give-NONPAST|SpaceAfter=No
@@ -510,7 +510,7 @@
 2	kapirnarla	ka	AUX	_	Number=Sing|Person=1|Person[dat]=3|Tense=Fut	4	aux	_	Gloss=will|MSeg=kapi-rna-rla|MGloss=FUT-1SG(SUBJ)-3(DAT)
 3	karlipatu	karli	NOUN	_	Case=Abs|Number=Pauc	4	obj	_	Gloss=a-few-boomerangs|MSeg=karli-patu|MGloss=boomerang(ABS)-PAUCAL
 4	puntami	punta	VERB	_	Tense=Pres	0	root	_	Gloss=take-away|MSeg=punta-mi|MGloss=take.away-NONPAST
-5	kurduku	kurdu	NOUN	_	Case=Dat|Number=Sing	4	obj	_	Gloss=child|MSeg=kurdu-ku|MGloss=child-DAT|SpaceAfter=No
+5	kurduku	kurdu	NOUN	_	Case=Dat|Number=Sing	4	iobj	_	Gloss=child|MSeg=kurdu-ku|MGloss=child-DAT|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
 # sent_id = 3.93aa
