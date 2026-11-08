@@ -72,10 +72,10 @@
     <dep name="amod">5</dep>
     <dep name="aux">50</dep>
     <dep name="case">1</dep>
-    <dep name="iobj">8</dep>
+    <dep name="iobj">10</dep>
     <dep name="nmod:poss">2</dep>
     <dep name="nsubj">56</dep>
-    <dep name="obj">50</dep>
+    <dep name="obj">48</dep>
     <dep name="obl">14</dep>
     <dep name="obl:tmod">1</dep>
     <dep name="punct">56</dep>
