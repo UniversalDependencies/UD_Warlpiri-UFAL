@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Warlpiri-UFAL:
-commit f9d56e806c4f65dcf143e9239ed93ca650c3f8ac
+commit c74c44c7999345990575d12497db160a801c1a58
+Merge: f6563f5 0fc8958
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 21:01:35 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'wbp_ufal'
 Language code (from CoNLL-U file name) = 'wbp'
@@ -25,12 +25,8 @@ Universal relations: 14 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang wbp --max-err=10 UD_Warlpiri-UFAL/wbp_ufal-ud-test.conllu
-[Line 502 Sent 3.92a]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('ngajuku', 'karlipatu') under the predicate 'yinyi'.
-[Line 512 Sent 3.92b]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('karlipatu', 'kurduku') under the predicate 'puntami'.
-SYNTAX errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -38,6 +34,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.470588235294118) = 0.0522875816993464
 (weight=0.111111111111111) * (score{udeprels}=0.378378378378378) = 0.042042042042042
-(TOTAL score=0.323465426210524) * (availability=1) * (validity=0.01) = 0.00323465426210524
-STARS = 0
-UD_Warlpiri-UFAL	0.00323465426210524	0
+(TOTAL score=0.323465426210524) * (availability=1) * (validity=1) = 0.323465426210524
+STARS = 1.5
+UD_Warlpiri-UFAL	0.323465426210524	1.5
